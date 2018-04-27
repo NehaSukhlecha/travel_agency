@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Travel agency for all tourists and book Holiday packeges :: Home page</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.cycle.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(e) {
+    
+	
+	$("#slide").cycle("toss");
+	
+	
+	
+});
+
+</script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+
+<div class="modal-dialog">
+<!--modal content start-->
+
+
+
+<div class="modal-header">
+<button type="button"  class="close" data-dismiss="modal">&times;</button>
+<h3 align="center" class="modal-title"><span class="fa fa-user-circle-o" style="color:#090; font-size:35px"></span></h3>
+
+<center><b style="color:#C00; font-size:22px">User SignIn!</b></center>
+</div>
+<div class="modal-body">
+<form method="post">
+
+<div class="form-group">
+<label>Enter Email :</label>
+<input type="text" name="em" placeholder="Enter Email" class="form-control"  required="required"/>
+
+
+</div>
+
+
+
+<div class="form-group">
+<label>Enter Password :<span class="fa fa-lock"></span></label>
+<input type="password" name="pass" placeholder="Enter pasword" class="form-control"  required="required"/>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+<input type="submit" name="log" value="Login >>" placeholder="Enter username" class="btn btn-success btn-lg"/>
+
+<b><a href="register.html" style="color:#C03">New User?</a></b>
+
+</div>
+
+
+
+<div class="form-group">
+
+<b><a href="forgetpassword.php" style="color:#C03 !important">Forget Password?</a></b>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-danger btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
